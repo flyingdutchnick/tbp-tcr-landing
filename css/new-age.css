@@ -335,7 +335,13 @@ section.framework .text-baseline {
   line-height: 1.8;
   letter-spacing: 2px;
   font-weight: 700;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+}
+
+@media (min-width: 992px) {
+  .principles h2 {
+    margin-bottom: 50px;
+  }
 }
 
 .principles p {
@@ -370,7 +376,13 @@ section.framework .text-baseline {
   letter-spacing: 1px;
   font-size: 23px;
   line-height: 1.5;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+}
+
+@media (min-width: 992px) {
+  .disclosures p {
+    margin-bottom: 50px;
+  }
 }
 
 @media (min-width: 992px) {
