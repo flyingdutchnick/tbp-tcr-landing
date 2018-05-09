@@ -5,7 +5,7 @@
     event.preventDefault();
     var position = $(this).attr("slide-to");
     $(".principle-slide__slider").animate({
-      scrollTop: position * 600
+      scrollTop: position * 400
     }, 300);
   })
 
@@ -13,7 +13,7 @@
     event.preventDefault();
     var position = $(this).attr("slide-to");
     $(".disclosure-slide__slider").animate({
-      scrollTop: position * 600
+      scrollTop: position * 400
     }, 300);
   })
 

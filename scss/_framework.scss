@@ -1,7 +1,6 @@
 // Styling for the download section
 section.framework {
-  padding-top: 200px;
-  margin-top: 50px;
+  padding-top: 150px;
   color: $theme-primary;
   .framework-background {
     position: absolute;
@@ -60,6 +59,7 @@ section.framework {
     height: 4px;
     width: 50px;
   }
-  @media (min-width: 768px) {
+  @media (min-width: 992px) {
+    padding-top: 250px;
   }
 }

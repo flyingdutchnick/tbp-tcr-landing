@@ -1,6 +1,6 @@
 // Styling for the features section
 .principles {
-  padding-top: 250px;
+  padding-top: 100px;
   h2 {
     color: $gray-dark;
     font-size: 50px;
@@ -15,6 +15,9 @@
     letter-spacing: 1px;
     font-size: 23px;
     line-height: 1.5;
+  }
+  @media (min-width: 992px) {
+    padding-top: 250px;
   }
 }
 
@@ -36,21 +39,22 @@
     margin-bottom: 50px;
   }
   @media (min-width: 992px) {
-    padding-bottom: 150px;
+    padding-top: 250px;
+    padding-bottom: 250px;
   }
 
 }
 
 .disclosure-slide,
 .principle-slide {
-  height: 600px;
+  height: 400px;
 }
 .disclosure-slide__holder,
 .principle-slide__holder {
-  height: 600px;
+  height: 400px;
 }
 .disclosure-slide__slider,
 .principle-slide__slider {
-  height: 600px;
+  height: 400px;
   overflow-y: hidden;
 }

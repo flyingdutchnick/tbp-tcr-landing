@@ -254,8 +254,7 @@ header.masthead .header-text p {
 }
 
 section.framework {
-  padding-top: 200px;
-  margin-top: 50px;
+  padding-top: 150px;
   color: #2744cb;
   position: relative;
 }
@@ -320,8 +319,14 @@ section.framework .text-baseline {
   width: 50px;
 }
 
+@media (min-width: 992px) {
+  section.framework {
+    padding-top: 250px;
+  }
+}
+
 .principles {
-  padding-top: 250px;
+  padding-top: 100px;
 }
 
 .principles h2 {
@@ -339,6 +344,12 @@ section.framework .text-baseline {
   letter-spacing: 1px;
   font-size: 23px;
   line-height: 1.5;
+}
+
+@media (min-width: 992px) {
+  .principles {
+    padding-top: 250px;
+  }
 }
 
 .disclosures {
@@ -364,23 +375,24 @@ section.framework .text-baseline {
 
 @media (min-width: 992px) {
   .disclosures {
-    padding-bottom: 150px;
+    padding-top: 250px;
+    padding-bottom: 250px;
   }
 }
 
 .disclosure-slide,
 .principle-slide {
-  height: 600px;
+  height: 400px;
 }
 
 .disclosure-slide__holder,
 .principle-slide__holder {
-  height: 600px;
+  height: 400px;
 }
 
 .disclosure-slide__slider,
 .principle-slide__slider {
-  height: 600px;
+  height: 400px;
   overflow-y: hidden;
 }
 
