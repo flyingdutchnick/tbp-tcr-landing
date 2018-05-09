@@ -321,7 +321,7 @@ section.framework .text-baseline {
 }
 
 .principles {
-  padding: 0;
+  padding-top: 250px;
 }
 
 .principles h2 {
@@ -342,7 +342,7 @@ section.framework .text-baseline {
 }
 
 .disclosures {
-  padding: 0;
+  padding-top: 150px;
 }
 
 .disclosures h2 {
@@ -362,8 +362,10 @@ section.framework .text-baseline {
   margin-bottom: 50px;
 }
 
-.principles {
-  padding-top: 250px;
+@media (min-width: 992px) {
+  .disclosures {
+    padding-bottom: 150px;
+  }
 }
 
 .disclosure-slide,
@@ -451,6 +453,19 @@ footer img {
   margin-bottom: 50px;
 }
 
+.principle-nav__item,
+.disclosure-nav__item {
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.principle-nav__item:hover, .principle-nav__item:focus,
+.disclosure-nav__item:hover,
+.disclosure-nav__item:focus {
+  outline: none;
+}
+
 .nav__item {
   line-height: 1;
   position: relative;
@@ -472,6 +487,13 @@ footer img {
 .nav--ubax .nav__item {
   width: 1.5em;
   height: 1.5em;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  .nav--ubax .nav__item {
+    margin-bottom: 20px;
+  }
 }
 
 .nav--ubax .nav__item::after {
@@ -511,7 +533,7 @@ footer img {
   padding: 0 0 0 2.5em;
   white-space: nowrap;
   pointer-events: none;
-  opacity: 0;
+  opacity: 0.25;
   -webkit-transform: translate3d(-20px, 0, 0);
   transform: translate3d(-20px, 0, 0);
   -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;

@@ -5,6 +5,17 @@
   margin-bottom: 50px;
 }
 
+.principle-nav__item,
+.disclosure-nav__item {
+  border: none;
+  padding: 10px;
+  &:hover,
+  &:focus {
+    outline: none;
+  }
+  cursor: pointer;
+}
+
 .nav__item {
   line-height: 1;
   position: relative;
@@ -27,6 +38,10 @@
 .nav--ubax .nav__item {
   width: 1.5em;
   height: 1.5em;
+  margin-bottom: 10px;
+  @media (min-width: 768px) {
+    margin-bottom: 20px;
+  }
 }
 
 .nav--ubax .nav__item::after {
@@ -73,7 +88,7 @@
   padding: 0 0 0 2.5em;
   white-space: nowrap;
   pointer-events: none;
-  opacity: 0;
+  opacity: 0.25;
   -webkit-transform: translate3d(-20px, 0, 0);
   transform: translate3d(-20px, 0, 0);
   -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;

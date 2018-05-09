@@ -1,6 +1,6 @@
 // Styling for the features section
 .principles {
-  padding: 0;
+  padding-top: 250px;
   h2 {
     color: $gray-dark;
     font-size: 50px;
@@ -19,7 +19,7 @@
 }
 
 .disclosures {
-  padding: 0;
+  padding-top: 150px;
   h2 {
     color: $gray-dark;
     font-size: 50px;
@@ -35,10 +35,10 @@
     line-height: 1.5;
     margin-bottom: 50px;
   }
-}
+  @media (min-width: 992px) {
+    padding-bottom: 150px;
+  }
 
-.principles {
-  padding-top: 250px;
 }
 
 .disclosure-slide,
