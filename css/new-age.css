@@ -321,13 +321,11 @@ section.framework .text-baseline {
   width: 50px;
 }
 
-.principles,
-.disclosures {
+.principles {
   padding: 0;
 }
 
-.principles h2,
-.disclosures h2 {
+.principles h2 {
   color: #333333;
   font-size: 50px;
   line-height: 1.8;
@@ -336,13 +334,33 @@ section.framework .text-baseline {
   margin-bottom: 50px;
 }
 
-.principles p,
+.principles p {
+  color: #333333;
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-size: 23px;
+  line-height: 1.5;
+}
+
+.disclosures {
+  padding: 0;
+}
+
+.disclosures h2 {
+  color: #333333;
+  font-size: 50px;
+  line-height: 1.8;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
 .disclosures p {
   color: #333333;
   font-weight: 300;
   letter-spacing: 1px;
   font-size: 23px;
   line-height: 1.5;
+  margin-bottom: 50px;
 }
 
 .principles {

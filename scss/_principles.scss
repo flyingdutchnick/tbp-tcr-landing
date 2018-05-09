@@ -1,6 +1,5 @@
 // Styling for the features section
-.principles,
-.disclosures {
+.principles {
   padding: 0;
   h2 {
     color: $gray-dark;
@@ -16,6 +15,25 @@
     letter-spacing: 1px;
     font-size: 23px;
     line-height: 1.5;
+  }
+}
+
+.disclosures {
+  padding: 0;
+  h2 {
+    color: $gray-dark;
+    font-size: 50px;
+    line-height: 1.8;
+    letter-spacing: 2px;
+    font-weight: 700;
+  }
+  p {
+    color: $gray-dark;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 23px;
+    line-height: 1.5;
+    margin-bottom: 50px;
   }
 }
 
