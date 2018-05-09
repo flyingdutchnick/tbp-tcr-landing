@@ -1,6 +1,22 @@
 (function($) {
   "use strict"; // Start of use strict
 
+  $(".principle-nav__item").click(function(event, el) {
+    event.preventDefault();
+    var position = $(this).attr("slide-to");
+    $(".principle-slide__slider").animate({
+      scrollTop: position * 600
+    }, 300);
+  })
+
+  $(".disclosure-nav__item").click(function(event, el) {
+    event.preventDefault();
+    var position = $(this).attr("slide-to");
+    $(".disclosure-slide__slider").animate({
+      scrollTop: position * 600
+    }, 300);
+  })
+
   // Smooth scrolling using jQuery easing
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {

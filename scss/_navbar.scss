@@ -44,7 +44,7 @@
       }
     }
   }
-  @media (min-width: 992px) {
+  // @media (min-width: 992px) {
     border-color: transparent;
     background-color: transparent;
     .navbar-brand {
@@ -63,7 +63,7 @@
     }
     &.navbar-shrink {
       border-color: fade-out($gray-darker, 0.9);
-      background-color: white;
+      background-color: transparent;
       .navbar-brand {
         color: $gray-darker;
         &:hover,
@@ -83,5 +83,5 @@
         }
       }
     }
-  }
+  // }
 }

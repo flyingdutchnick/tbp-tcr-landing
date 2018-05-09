@@ -1,0 +1,65 @@
+// Styling for the download section
+section.framework {
+  padding-top: 200px;
+  margin-top: 50px;
+  color: $theme-primary;
+  .framework-background {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  .color-block-1 {
+    background: url("../img/framework.jpeg"), $theme-secondary;
+    background: url("../img/framework.jpeg"),
+      -webkit-linear-gradient(to left, $theme-secondary, $theme-tertiary);
+    background: url("../img/framework.jpeg"),
+      linear-gradient(to left, $theme-secondary, $theme-tertiary);
+    background-size: cover;
+    background-position: right 0 top;
+  }
+  .color-block-2 {
+    background: #fff;
+  }
+  .color-block-3 {
+    position: relative;
+    background: url("../img/framework.jpeg"), $theme-secondary;
+    background: url("../img/framework.jpeg"),
+      -webkit-linear-gradient(to left, $theme-secondary, $theme-tertiary);
+    background: url("../img/framework.jpeg"),
+      linear-gradient(to left, $theme-secondary, $theme-tertiary);
+    background-size: cover;
+    background-position: right 0 top;
+  }
+  position: relative;
+  h2 {
+    color: $gray-dark;
+    font-size: 18px;
+    line-height: 1.8;
+    letter-spacing: 2px;
+    font-weight: 700;
+  }
+  p {
+    color: $gray-dark;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 23px;
+    line-height: 1.5;
+  }
+  a {
+    font-weight: 800;
+  }
+  .text-baseline {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 0;
+    bottom: 0;
+    background: #3d3560;
+    height: 4px;
+    width: 50px;
+  }
+  @media (min-width: 768px) {
+  }
+}
