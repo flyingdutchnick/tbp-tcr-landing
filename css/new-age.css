@@ -326,7 +326,7 @@ section.framework .text-baseline {
 }
 
 .principles {
-  padding-top: 20px;
+  padding-top: 0px;
 }
 
 .principles h2 {
@@ -353,7 +353,7 @@ section.framework .text-baseline {
 }
 
 .disclosures {
-  margin-top: -180px;
+  padding-top: 50px;
 }
 
 .disclosures h2 {
@@ -377,7 +377,6 @@ section.framework .text-baseline {
   .disclosures {
     padding-top: 250px;
     padding-bottom: 250px;
-    margin-top: 0px;
   }
 }
 

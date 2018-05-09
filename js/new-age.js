@@ -1,6 +1,14 @@
 (function($) {
   "use strict"; // Start of use strict
 
+  //init position
+  $(".principle-slide__slider").animate({
+      scrollTop: 9 * 500
+    }, 300);
+  $(".disclosure-slide__slider").animate({
+      scrollTop: 2 * 500
+    }, 300);
+
   $(".principle-nav__item").click(function(event, el) {
     event.preventDefault();
     var position = $(this).attr("slide-to");
