@@ -60,7 +60,13 @@
 
 .nav--ubax .nav__item-title {
   color: $theme-primary;
-  font-size: 23px;
+  font-size: 15px;
+  @media (min-width: 768px) and (max-width: 1099px) {
+    font-size: 18px;
+  }
+  @media (min-width: 1200px) {
+    font-size: 23px;
+  }
   font-weight: 700;
   line-height: 10px;
   display: block;

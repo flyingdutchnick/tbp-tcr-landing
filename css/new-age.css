@@ -2,7 +2,6 @@ html,
 body {
   width: 100%;
   height: 100%;
-  overflow-x: hidden;
 }
 
 body {
@@ -160,8 +159,8 @@ header.masthead {
   width: 100%;
   color: white;
   background: url("../img/tbp-bg-02.jpg"), #3C93F8;
-  background: url("../img/tbp-bg-02.jpg"), -webkit-linear-gradient(to left, #3C93F8, #cbe4f6);
-  background: url("../img/tbp-bg-02.jpg"), linear-gradient(to left, #3C93F8, #cbe4f6);
+  background: url("../img/tbp-bg-02.jpg"), -webkit-linear-gradient(to left, #3C93F8, #3C93F8);
+  background: url("../img/tbp-bg-02.jpg"), linear-gradient(to left, #3C93F8, #3C93F8);
   background-size: contain;
 }
 
@@ -505,7 +504,7 @@ footer img {
 
 .nav--ubax .nav__item-title {
   color: #2744cb;
-  font-size: 23px;
+  font-size: 15px;
   font-weight: 700;
   line-height: 10px;
   display: block;
@@ -517,6 +516,18 @@ footer img {
   transform: translate3d(-20px, 0, 0);
   -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
   transition: transform 0.3s, opacity 0.3s;
+}
+
+@media (min-width: 768px) and (max-width: 1099px) {
+  .nav--ubax .nav__item-title {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .nav--ubax .nav__item-title {
+    font-size: 23px;
+  }
 }
 
 .nav--ubax .nav__item:not(.nav__item--current):focus .nav__item-title,
