@@ -18,9 +18,9 @@ header.masthead {
   // background: $theme-secondary;
   background: url("../img/tbp-bg-02.jpg"), $theme-secondary;
   background: url("../img/tbp-bg-02.jpg"),
-    -webkit-linear-gradient(to left, $theme-secondary, $theme-tertiary);
+    -webkit-linear-gradient(to left, $theme-secondary, $theme-primary);
   background: url("../img/tbp-bg-02.jpg"),
-    linear-gradient(to left, $theme-secondary, $theme-tertiary);
+    linear-gradient(to left, $theme-secondary, $theme-primary);
   background-size: contain;
 
   .h-fill {
