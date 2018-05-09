@@ -24,6 +24,7 @@
   }
   .navbar-nav {
     > li {
+      padding: 0 1em;
       > a {
         font-size: 11px;
         @include alt-font;
