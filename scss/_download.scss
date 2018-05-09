@@ -1,0 +1,31 @@
+// Styling for the download section
+section.framework {
+  position: relative;
+  padding: 150px 0;
+  h2 {
+    color: $gray-dark;
+    font-size: 18px;
+    line-height: 1.8;
+    letter-spacing: 2px;
+    font-weight: 700;
+  }
+  p {
+    color: $gray-dark;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 23px;
+    line-height: 1.5;
+  }
+  .text-baseline {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 0;
+    bottom: 0;
+    background: #3d3560;
+    height: 4px;
+    width: 50px;
+  }
+  @media (min-width: 768px) {
+  }
+}
