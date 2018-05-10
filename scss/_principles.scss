@@ -19,6 +19,9 @@
     font-size: 23px;
     line-height: 1.5;
   }
+  li {
+    padding: .5em 0;
+  }
   @media (min-width: 992px) {
     padding-top: 250px;
   }
@@ -43,6 +46,9 @@
     font-size: 23px;
     line-height: 1.5;
     margin-bottom: 30px;
+  }
+  li {
+    padding: .5em 0;
   }
   @media (min-width: 992px) {
     padding-top: 250px;

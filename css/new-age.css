@@ -83,6 +83,10 @@ section h2 {
   color: #222222;
 }
 
+#mainNav .navbar-nav > li {
+  padding: 0 1em;
+}
+
 #mainNav .navbar-nav > li > a {
   font-size: 11px;
   font-family: 'Roboto', sans-serif;
@@ -352,6 +356,10 @@ section.framework .text-baseline {
   line-height: 1.5;
 }
 
+.principles li {
+  padding: .5em 0;
+}
+
 @media (min-width: 992px) {
   .principles {
     padding-top: 250px;
@@ -383,6 +391,10 @@ section.framework .text-baseline {
   .disclosures p {
     margin-bottom: 50px;
   }
+}
+
+.disclosures li {
+  padding: .5em 0;
 }
 
 @media (min-width: 992px) {
