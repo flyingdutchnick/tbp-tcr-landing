@@ -31,9 +31,9 @@
 }
 
 .btn-outline {
-  color: white;
+  color: $theme-primary;
   border: 1px solid;
-  border-color: white;
+  border-color: $theme-primary;
   &:hover,
   &:focus,
   &:active,
