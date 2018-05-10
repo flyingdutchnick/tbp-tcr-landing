@@ -3,7 +3,7 @@
 
   //init position
   $(".principle-slide__slider").animate({
-      scrollTop: 9 * 500
+      scrollTop: 0 * 500
     }, 300);
   $(".disclosure-slide__slider").animate({
       scrollTop: 2 * 500
