@@ -259,37 +259,9 @@ header.masthead .header-text p {
 
 section.framework {
   padding-top: 80px;
+  padding-bottom: 80px;
   color: #2744cb;
   position: relative;
-}
-
-section.framework .framework-background {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
-
-section.framework .color-block-1 {
-  background: url("../img/framework.jpeg"), #3C93F8;
-  background: url("../img/framework.jpeg"), -webkit-linear-gradient(to left, #3C93F8, #cbe4f6);
-  background: url("../img/framework.jpeg"), linear-gradient(to left, #3C93F8, #cbe4f6);
-  background-size: cover;
-  background-position: right 0 top;
-}
-
-section.framework .color-block-2 {
-  background: #fff;
-}
-
-section.framework .color-block-3 {
-  position: relative;
-  background: url("../img/framework.jpeg"), #3C93F8;
-  background: url("../img/framework.jpeg"), -webkit-linear-gradient(to left, #3C93F8, #cbe4f6);
-  background: url("../img/framework.jpeg"), linear-gradient(to left, #3C93F8, #cbe4f6);
-  background-size: cover;
-  background-position: right 0 top;
 }
 
 section.framework h2 {
@@ -326,6 +298,7 @@ section.framework .text-baseline {
 @media (min-width: 992px) {
   section.framework {
     padding-top: 250px;
+    padding-bottom: 250px;
   }
 }
 
@@ -459,9 +432,9 @@ footer img {
 }
 
 .btn-outline {
-  color: white;
+  color: #2744cb;
   border: 1px solid;
-  border-color: white;
+  border-color: #2744cb;
 }
 
 .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {

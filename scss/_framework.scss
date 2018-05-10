@@ -1,36 +1,8 @@
 // Styling for the download section
 section.framework {
   padding-top: 80px;
+  padding-bottom: 80px;
   color: $theme-primary;
-  .framework-background {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-  }
-  .color-block-1 {
-    background: url("../img/framework.jpeg"), $theme-secondary;
-    background: url("../img/framework.jpeg"),
-      -webkit-linear-gradient(to left, $theme-secondary, $theme-tertiary);
-    background: url("../img/framework.jpeg"),
-      linear-gradient(to left, $theme-secondary, $theme-tertiary);
-    background-size: cover;
-    background-position: right 0 top;
-  }
-  .color-block-2 {
-    background: #fff;
-  }
-  .color-block-3 {
-    position: relative;
-    background: url("../img/framework.jpeg"), $theme-secondary;
-    background: url("../img/framework.jpeg"),
-      -webkit-linear-gradient(to left, $theme-secondary, $theme-tertiary);
-    background: url("../img/framework.jpeg"),
-      linear-gradient(to left, $theme-secondary, $theme-tertiary);
-    background-size: cover;
-    background-position: right 0 top;
-  }
   position: relative;
   h2 {
     color: $gray-dark;
@@ -61,5 +33,6 @@ section.framework {
   }
   @media (min-width: 992px) {
     padding-top: 250px;
+    padding-bottom: 250px;
   }
 }
